@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
 	<title>Bootstrap</title>
 </head>
 <body>
@@ -157,26 +157,26 @@
             <div class="container">
                 <form class="flex-row-between" action="#">
                     <div class="flex-column">
-                        <label for="checkIn">Check In Date</label>
+                        <label class="labeltitle" for="checkIn">Check In Date</label>
                         <input type="date" id="checkIn" name="checkIn">
                     </div>
                     <div class="flex-column">
-                        <label for="checkOut">Check Out Date</label>
+                        <label class="labeltitle" for="checkOut">Check Out Date</label>
                         <input type="date" id="checkOut" name="checkOut">
                     </div>
                     <div class="flex-column">
-                        <label for="rooms">Rooms</label>
-                        <input type="number" id="rooms" name="rooms">
+                        <label class="labeltitle" for="rooms">Rooms</label>
+                        <input type="number" id="rooms" name="rooms" min="0">
                     </div>
-                    <button class="align-self-end" type="submit">Submit</button>
+                    <button class="submit align-self-end" type="submit">Submit  <svg xmlns="http://www.w3.org/2000/svg" width="17.82" height="18"><g><path stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M16.57 1l-9 9M16.818 1.18l-5.536 15.818L8.118 9.88 1 6.716 16.818 1.18z"/></g></svg></button>
                 </form>
             </div>
         </section>
     </section>
-    <!-- Footer -->
-<footer class="bg-dark text-center text-lg-start bg-light text-muted pt-2">
+<!-- Footer -->
+<footer class="footer bg-dark text-center text-lg-start bg-light text-muted pt-2">
   <!-- Section: Links  -->
-  <section class="">
+  <section class="section">
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
       <div class="row mt-3">
@@ -184,22 +184,33 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Zetta Hotels
+		    Zetta Hotels
           </h6>
           <p>
             Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.
           </p>
           <div class="socialmedia">
         	<!-- Facebook -->
-				<i class="fab fa-facebook-f"></i>
+        	<a href="https://www.facebook.com/">        	<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+				width="35" height="35"
+				viewBox="0 0 171 171"
+				style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,171.99803v-171.99803h171.99803v171.99803z" fill="none"></path><path d="M85.99902,134.73402c-26.9156,0 -48.735,-21.8194 -48.735,-48.735v0c0,-26.9156 21.8194,-48.735 48.735,-48.735h0c26.9156,0 48.735,21.8194 48.735,48.735v0c0,26.9156 -21.8194,48.735 -48.735,48.735z" fill="#ffffff"></path><g fill="#3b5998"><path d="M140.22,85.5c0,30.21912 -24.50088,54.72 -54.72,54.72c-30.21912,0 -54.72,-24.50088 -54.72,-54.72c0,-30.21912 24.50088,-54.72 54.72,-54.72c30.21912,0 54.72,24.50088 54.72,54.72zM104.56536,54.17736c-1.38624,-0.18696 -4.31376,-0.59736 -9.8496,-0.59736c-11.5596,0 -18.33576,6.10584 -18.33576,20.01384v7.34616h-13.68v13.68h13.68v35.56344c2.94576,0.59736 5.9964,0.91656 9.12,0.91656c1.54128,0 3.05976,-0.08208 4.56,-0.228v-36.252h12.43056l1.95168,-13.68h-14.38224v-5.84592c0,-5.244 1.71456,-7.83408 6.62112,-7.83408h7.88424z"></path></g></g></svg></a>
 
 				<!-- Twitter -->
-				<i class="fab fa-twitter"></i>
+				<a href="https://twitter.com/">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    				 width="35" height="35"
+					viewBox="0 0 171 171"
+					style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,171.99803v-171.99803h171.99803v171.99803z" fill="none"></path><path d="M85.99902,139.00902c-29.27661,0 -53.01,-23.73339 -53.01,-53.01v0c0,-29.27661 23.73339,-53.01 53.01,-53.01v0c29.27661,0 53.01,23.73339 53.01,53.01v0c0,29.27661 -23.73339,53.01 -53.01,53.01z" fill="#ffffff"></path><g fill="#55acee"><path d="M85.5,30.78c-30.21912,0 -54.72,24.50088 -54.72,54.72c0,30.21912 24.50088,54.72 54.72,54.72c30.21912,0 54.72,-24.50088 54.72,-54.72c0,-30.21912 -24.50088,-54.72 -54.72,-54.72zM114.97584,74.2596c0.02736,0.60648 0.04104,1.2084 0.04104,1.81032c0,18.55008 -14.1132,39.92736 -39.92736,39.92736c-7.92984,0 -15.30336,-2.32104 -21.50952,-6.30648c1.09896,0.13224 2.21616,0.19152 3.3516,0.19152c6.58008,0 12.62664,-2.23896 17.42376,-6.01008c-6.14232,-0.114 -11.32704,-4.1724 -13.11,-9.74472c0.85728,0.16416 1.73736,0.2508 2.64024,0.2508c1.28136,0 2.52624,-0.17328 3.69816,-0.49248c-6.42048,-1.28592 -11.25864,-6.95856 -11.25864,-13.75752c0,-0.05928 0,-0.11856 0,-0.17784c1.8924,1.05336 4.05384,1.68264 6.35664,1.7556c-3.762,-2.51256 -6.24264,-6.81264 -6.24264,-11.67816c0,-2.5764 0.68856,-4.98864 1.89696,-7.05432c6.92208,8.49072 17.26416,14.08128 28.92408,14.66496c-0.23712,-1.026 -0.36024,-2.0976 -0.36024,-3.19656c0,-7.74744 6.28368,-14.03568 14.03112,-14.03568c4.0356,0 7.6836,1.70544 10.24176,4.43232c3.19656,-0.63384 6.2016,-1.79664 8.9148,-3.40632c-1.0488,3.27864 -3.27408,6.02376 -6.17424,7.76568c2.83632,-0.33744 5.5404,-1.08984 8.06208,-2.20704c-1.87416,2.81808 -4.24992,5.28504 -6.9996,7.26864z"></path></g><path d="" fill="none"></path><path d="" fill="none"></path></g></g></svg></a>
 
 				<!-- Google -->
-				<i class="fab fa-google"></i>
+				<a href="https://www.google.com/">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+					width="35" height="35"
+					viewBox="0 0 171 171"
+					style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,171.99803v-171.99803h171.99803v171.99803z" fill="none"></path><path d="M85.99902,138.15402c-28.80441,0 -52.155,-23.35059 -52.155,-52.155v0c0,-28.80441 23.35059,-52.155 52.155,-52.155v0c28.80441,0 52.155,23.35059 52.155,52.155v0c0,28.80441 -23.35059,52.155 -52.155,52.155z" fill="#ffffff"></path><g fill="#dc4e41"><path d="M85.5,30.78c-30.21912,0 -54.72,24.50088 -54.72,54.72c0,30.21912 24.50088,54.72 54.72,54.72c30.21912,0 54.72,-24.50088 54.72,-54.72c0,-30.21912 -24.50088,-54.72 -54.72,-54.72zM71.82,112.86c-15.11184,0 -27.36,-12.24816 -27.36,-27.36c0,-15.11184 12.24816,-27.36 27.36,-27.36c7.1136,0 13.59336,2.71776 18.45432,7.17288l-6.53904,6.40224c-3.19656,-2.77248 -7.35528,-4.45512 -11.91528,-4.45512c-10.07304,0 -18.24,8.16696 -18.24,18.24c0,10.07304 8.16696,18.24 18.24,18.24c9.03336,0 16.51632,-6.57552 17.9664,-15.19848h-17.9664v-9.12h26.64408l0.15048,0.60648c0.3648,1.76928 0.56544,3.59784 0.56544,5.472c0,15.11184 -12.24816,27.36 -27.36,27.36zM121.98,90.06v9.12h-9.12v-9.12h-9.12v-9.12h9.12v-9.12h9.12v9.12h9.12v9.12z"></path></g></g></svg></a>
+              </div>
             </div>
-        </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
@@ -209,16 +220,16 @@
             Useful links
           </h6>
           <p>
-            <a href="#!" class="text-reset">Blog</a>
+            <a href="#!" class="text-reset thecolor">Blog</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Rooms</a>
+            <a href="#!" class="text-reset thecolor">Rooms</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Gift Card</a>
+            <a href="#!" class="text-reset thecolor">Gift Card</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Testimonials</a>
+            <a href="#!" class="text-reset thecolor">Testimonials</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -230,16 +241,16 @@
             Privacy
           </h6>
           <p>
-            <a href="#!" class="text-reset">Career</a>
+            <a href="#!" class="text-reset thecolor">Career</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">About us</a>
+            <a href="#!" class="text-reset thecolor">About us</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Contact us</a>
+            <a href="#!" class="text-reset thecolor">Contact us</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Services</a>
+            <a href="#!" class="text-reset thecolor">Services</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -251,11 +262,11 @@
             Contact info
           </h6>
           <p>
-            <i class="fas fa-envelope me-3"></i>
+            <i class="fa fa-envelope me-3 thecolor"></i>
             example@yahoo.com
           </p>
-          <p><i class="fas fa-phone me-3"></i>+0 320 422 4254</p>
-          <p><i class="fas fa-home me-3"></i>Main Str Chicago Ilinois</p>
+          <p><i class="fa fa-phone me-3 thecolor"></i>+0 320 422 4254</p>
+          <p><i class="fa fa-home me-3 thecolor"></i>Main Str Chicago Ilinois</p>
         </div>
         <!-- Grid column -->
       </div>
@@ -267,7 +278,7 @@
   <!-- Copyright -->
   <div class="text-center d-flex justify-content-evenly p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     Copyright ©2020 All rights reserved | This template is made with love by Marian
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">www.portfolioname.com</a>
+    <a class="text-reset fw-bold thecolor" href="https://mdbootstrap.com/">www.portfolioname.com</a>
   </div>
   <!-- Copyright -->
 </footer>

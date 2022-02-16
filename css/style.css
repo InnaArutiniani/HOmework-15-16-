@@ -102,3 +102,22 @@
     display: flex;
     flex-direction: column;
 } 
+.labeltitle{
+    margin-bottom: 10px;
+    color: #5863f8;
+}
+.submit {
+    background-color: #5863f8;
+    color: #ffffff;
+}
+.thecolor {
+    color: #5863f8!important;
+    margin-bottom: 10px; 
+}
+.footer h6{
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer p {
+    margin-bottom: 10px; 
+}
