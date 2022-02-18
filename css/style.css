@@ -1,8 +1,12 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .header {
     width: 100%;
     background: #000 url(../images/cover.jpg);
     background-position: 50% 25%;
     color: #FFFFFF;
+    margin-bottom: 90px;
 }
 .backgroundColor {
     background-color: rgba(0, 0, 0, 0.5);
@@ -11,10 +15,10 @@
 .header a {
     color: #FFFFFF;
 }
-.container {
+/**.container {
     margin: 0 auto;
     width: 80%;
-}
+}**/
 .mainNav {
     margin-bottom: 95px;
 }
@@ -62,17 +66,23 @@
     font-size: 24px;
     text-transform: uppercase;
     color: #5863f8;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 .mainh3{
     font-size: 42px;
     color: #000000;
+    margin-bottom: 55px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
-.roomsContainer {
+/**.rooms{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 16px;
-}
+}**/
 .visitArrow {
     background-color: #5863F8;
     height: 100%;
@@ -89,14 +99,40 @@
     background-color: #F8F8F8;
     height: 100%;
 }
+.textArea span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #5863f8;
+}
+.textArea h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.textArea p{
+    font-size: 14px;
+    color: #b1b1b1;
+}
+.row2item{
+    max-height: 185px;
+}
 .roomImg {
     width: 30%;
     height: 100%;
     object-fit: cover;
 }
+
 .checkIn {
     background-color: #F8F8F8;
-    padding: 53px 0;
+    padding: 53px 0; 
+}
+.inputs {
+   /** width: 80%;
+    margin: 0 auto;**/
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .flex-column {
     display: flex;

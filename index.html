@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 	<title>Bootstrap</title>
 </head>
 <body>
@@ -42,119 +45,125 @@
         <section class="aboutUs container">
             <h4>About Us</h4>
             <h3 class="mainh3">Trust and quality are our atuus</h3>
-            <div class="roomsContainer">
-                <div class="roomsDiv flex-row-between">
-                    <img class="roomImg" src="./images/7012bd4430f2ebc4689d0d2dc4f4fe97.jpg" alt="room image">
-                    <div class="textArea">
-                        <span>Big</span>
-                        <h3>Spacious Room</h3>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
+            <div class="rooms container">
+                <div class="row">
+                    <div class="roomsDiv col-6 d-flex pb-2 align-items-center">
+                        <img class="roomImg" src="./images/7012bd4430f2ebc4689d0d2dc4f4fe97.jpg" alt="room image">
+                        <div class="textArea">
+                            <span>Big</span>
+                            <h3>Spacious Room</h3>
+                            <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
+                        </div>
+                        <div class="visitArrow">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
+                                    <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
+                                      <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                      <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                    </g>
+                                </svg>                              
+                            </a>
+                        </div>
                     </div>
-                    <div class="visitArrow">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
-                                <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
-                                  <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                  <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                </g>
-                            </svg>                              
-                        </a>
-                    </div>
-                </div>
-                <div class="roomsDiv flex-row-between">
-                    <img class="roomImg" src="./images/ede54dc6d3bd7d885d7f3949e4715dee.jpg" alt="room image">
-                    <div class="textArea">
-                        <span>Big</span>
-                        <h3>Spacious Room</h3>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
-                    </div>
-                    <div class="visitArrow">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
-                                <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
-                                  <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                  <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                </g>
-                            </svg>                              
-                        </a>
-                    </div>
-                </div>
-                <div class="roomsDiv flex-row-between">
-                    <img class="roomImg" src="./images/b04e949bb1bc2d42e65f37f3152b7f4d.jpg" alt="room image">
-                    <div class="textArea">
-                        <span>Big</span>
-                        <h3>Spacious Room</h3>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
-                    </div>
-                    <div class="visitArrow">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
-                                <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
-                                  <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                  <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                </g>
-                            </svg>                              
-                        </a>
+                    <div class="roomsDiv col-6 d-flex pb-2 align-items-center">
+                        <img class="roomImg" src="./images/ede54dc6d3bd7d885d7f3949e4715dee.jpg" alt="room image">
+                        <div class="textArea">
+                            <span>Small</span>
+                            <h3>Small Cheap Room</h3>
+                            <p>Smallest and the most economic room in our hotel. Save an extra buck for your holiday</p>
+                        </div>
+                        <div class="visitArrow">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
+                                    <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
+                                      <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                      <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                    </g>
+                                </svg>                              
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="roomsDiv flex-row-between">
-                    <img class="roomImg" src="./images/d675f41ab81426830a59e747f25def75.jpg" alt="room image">
-                    <div class="textArea">
-                        <span>Big</span>
-                        <h3>Spacious Room</h3>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
+                <div class="row">
+                    <div class="roomsDiv col-6 d-flex pb-2 align-items-center row2item">
+                        <img class="roomImg" src="./images/b04e949bb1bc2d42e65f37f3152b7f4d.jpg" alt="room image">
+                        <div class="textArea">
+                            <span>Premium</span>
+                            <h3>Big Room</h3>
+                            <p>Biggest room in our hotel fully equipped with Wi-fi and hot coffee</p>
+                        </div>
+                        <div class="visitArrow">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
+                                    <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
+                                      <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                      <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                    </g>
+                                </svg>                              
+                            </a>
+                        </div>
                     </div>
-                    <div class="visitArrow">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
-                                <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
-                                  <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                  <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                </g>
-                            </svg>                              
-                        </a>
+                    <div class="roomsDiv col-6 d-flex pb-2 align-items-center row2item">
+                        <img class="roomImg" src="./images/d675f41ab81426830a59e747f25def75.jpg" alt="room image">
+                        <div class="textArea">
+                            <span>Expensive</span>
+                            <h3>Expensive Luxury Room</h3>
+                            <p>The most expensive room available for milionars and very rich people</p>
+                        </div>
+                        <div class="visitArrow">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
+                                    <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
+                                      <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                      <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                    </g>
+                                </svg>                              
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="roomsDiv flex-row-between">
-                    <img class="roomImg" src="./images/7012bd4430f2ebc4689d0d2dc4f4fe97.jpg" alt="room image">
-                    <div class="textArea">
-                        <span>Big</span>
-                        <h3>Spacious Room</h3>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
+                <div class="row">
+                    <div class="roomsDiv col-6 d-flex pb-2 align-items-center">
+                        <img class="roomImg" src="./images/7012bd4430f2ebc4689d0d2dc4f4fe97.jpg" alt="room image">
+                        <div class="textArea">
+                            <span>Big</span>
+                            <h3>Spacious Room</h3>
+                            <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
+                        </div>
+                        <div class="visitArrow">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
+                                    <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
+                                      <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                      <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                    </g>
+                                </svg>                              
+                            </a>
+                        </div>
                     </div>
-                    <div class="visitArrow">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
-                                <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
-                                  <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                  <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                </g>
-                            </svg>                              
-                        </a>
-                    </div>
-                </div>
-                <div class="roomsDiv flex-row-between">
-                    <img class="roomImg" src="./images/ede54dc6d3bd7d885d7f3949e4715dee.jpg" alt="room image">
-                    <div class="textArea">
-                        <span>Big</span>
-                        <h3>Spacious Room</h3>
-                        <p>The most spacious room you will ever see in our hotel. Equipped with span and warm beds</p>
-                    </div>
-                    <div class="visitArrow">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
-                                <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
-                                  <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                  <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                </g>
-                            </svg>                              
-                        </a>
+                    <div class="roomsDiv col-6 d-flex pb-2 align-items-center">
+                        <img class="roomImg" src="./images/ede54dc6d3bd7d885d7f3949e4715dee.jpg" alt="room image">
+                        <div class="textArea">
+                            <span>Small</span>
+                            <h3>Small Cheap Room</h3>
+                            <p>Smallest and the most economic room in our hotel. Save an extra buck for your holiday</p>
+                        </div>
+                        <div class="visitArrow">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.828" viewBox="0 0 16 16.828">
+                                    <g id="arrow-right_1_" data-name="arrow-right (1)" transform="translate(-4 -3.586)">
+                                      <line id="Line_1" data-name="Line 1" x2="14" transform="translate(5 12)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                      <path id="Path_1" data-name="Path 1" d="M12,5l7,7-7,7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                    </g>
+                                </svg>                              
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="checkIn">
-            <div class="container">
+            <div class="inputs container">
                 <form class="flex-row-between" action="#">
                     <div class="flex-column">
                         <label class="labeltitle" for="checkIn">Check In Date</label>
