@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -6,7 +12,7 @@ body {
     background: #000 url(../images/cover.jpg);
     background-position: 50% 25%;
     color: #FFFFFF;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 .backgroundColor {
     background-color: rgba(0, 0, 0, 0.5);
@@ -14,6 +20,7 @@ body {
 }
 .header a {
     color: #FFFFFF;
+    /*font-weight: bold;*/
 }
 /**.container {
     margin: 0 auto;
@@ -53,14 +60,26 @@ body {
     margin-bottom: 85px;
 } */
 .flex-row-between {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .flex-row-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .aboutUs h4{
     font-size: 24px;
@@ -68,13 +87,15 @@ body {
     color: #5863f8;
     padding-left: 12px;
     padding-right: 12px;
+    font-weight: bold;
 }
 .mainh3{
     font-size: 42px;
     color: #000000;
-    margin-bottom: 55px;
+    margin-bottom: 35px;
     padding-left: 12px;
     padding-right: 12px;
+    font-weight: bold;
 }
 /**.rooms{
     width: 100%;
@@ -89,9 +110,14 @@ body {
 }
 .visitArrow a {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-self: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
     padding: 0 23px;
 }
 .textArea {
@@ -121,7 +147,8 @@ body {
 .roomImg {
     width: 30%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .checkIn {
@@ -135,8 +162,13 @@ body {
     padding-right: 24px;
 }
 .flex-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 } 
 .labeltitle{
     margin-bottom: 10px;
@@ -145,6 +177,7 @@ body {
 .submit {
     background-color: #5863f8;
     color: #ffffff;
+    padding: 5px 20px;
 }
 .thecolor {
     color: #5863f8!important;
